@@ -35,7 +35,7 @@ if menu == "Researcher Profile":
     st.sidebar.header("Profile Options")
 
     # Basic profile info
-    name = "Mr Celokuhle Ntete"
+    name = "Mr Celokuhle Sandise Ntete"
     institution = "University of Fort Hare"
     field = "Mathematics"
     province_name = "Eastern Cape"
@@ -119,6 +119,7 @@ elif menu == "Contact":
 
     You can reach out for collaborations, publications, or data inquiries.
     """)
+
 
 
 
