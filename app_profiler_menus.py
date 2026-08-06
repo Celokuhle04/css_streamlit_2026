@@ -113,7 +113,6 @@ elif menu == "Contact":
     st.markdown("""
     ### 📬 Get in Touch
     **Email:** sandisentete@gmail.com
-    **Phone:** +27 67 306 3895
     **Institution / Affiliation:** University of Fort Hare
     **Location:** Eastern Cape, South Africa
 
