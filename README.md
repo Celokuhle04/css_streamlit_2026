@@ -17,14 +17,20 @@ Interactive research dashboard built during the CHPC - NITheCS Coding Summer Sch
     - Monthly Rainfall trends
 - **Contact** - Professional contact information
 
+---
+
 ### Tech Stack
 - Python
 - Pandas & NumPy
 - Streamlit
 - Data Visualization (Bar Chart, Area Chart)
 
+---
+
 ### Screenshots
 > Add 2 screenshots here - Data Explorer page and Profile page
+
+---
 
 ### How to Run Locally
 ```bash
