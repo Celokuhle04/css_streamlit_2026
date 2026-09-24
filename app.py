@@ -4,7 +4,6 @@ import numpy as np
 
 # Set page title
 st.set_page_config(page_title="Eastern Cape Research Dashboard | Celokuhle Ntete", layout="wide", page_icon="📊")
-st.caption("Note: Sample/demo data for portfolio demonstration purposes")
 
 # Custom CSS for professional look
 st.markdown("""
