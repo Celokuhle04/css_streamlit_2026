@@ -2,6 +2,7 @@
 ### Interactive Data Dashboard | Python, Pandas, Streamlit
 
 Interactive research dashboard built during the CHPC - NITheCS Coding Summer School 2026, showcasing Eastern Cape data analysis, researcher information and interactive data exploration.
+
 **🔗 Live Demo:** https://css2026-celokuhle.streamlit.app  
 **👨‍💻 Author:** Celokuhle Sandise Ntete | Data & Software Development | Honours Mathematics - University of Fort Hare
 
