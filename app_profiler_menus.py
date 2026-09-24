@@ -19,7 +19,7 @@ st.sidebar.title("📊 Dashboard")
 st.sidebar.markdown("**Celokuhle S. Ntete** | Data & Software Developer")
 menu = st.sidebar.radio(
     "Navigation:",
-    ["Researcher Profile", "Research Publications", "Eastern Cape Data Explorer", "Contact"],
+    ["About Me", "Research Publications", "Eastern Cape Data Explorer", "Contact"],
 )
 
 # Dummy Eastern Cape data
@@ -40,31 +40,23 @@ climate_data = pd.DataFrame({
 })
 
 # Sections based on menu selection
-if menu == "Researcher Profile":
-    st.title("Researcher Profile")
+if menu == "About Me":
+    st.header("About Me")
     st.subheader("Celokuhle Sandise Ntete | Data & Software Developer")
-    
-    col1, col2 = st.columns([2,1])
-    with col1:
-        st.write(f"**Name:** Mr Celokuhle Sandise Ntete")
-        st.write(f"**Institution:** University of Fort Hare - Honours Mathematics")
-        st.write(f"**Field:** Mathematics | Data Analytics | Software Development")
-        st.write(f"**Province:** Eastern Cape")
-        st.write(f"**Country:** South Africa")
-        st.write(f"**Capital City:** Bhisho")
-        
-        st.divider()
-        st.markdown("**Tech Stack:** Python • SQL • Pandas • Streamlit • Power BI • Git")
-        st.link_button("View GitHub Profile", "https://github.com/Celokuhle04")
-        
-    with col2:
-        st.image(
-            "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg",
-            caption="Eastern Cape Landscape"
-        )
+    st.write("Honours Mathematics student at the University of Fort Hare, passionate about turning data into solutions with Python.")
+    st.markdown("---")
+    st.markdown("### 🎓 Education")
+    st.write("University of Fort Hare - Honours in Mathematics")
+    st.markdown("### 💼 Focus")
+    st.write("Data Analytics | Software Development | Mathematics")
+    st.markdown("### 🛠️ Tech Stack")
+    st.write("Python • SQL • Pandas • Streamlit • Power BI • Git")
+    st.link_button("View GitHub Profile", "https://github.com/Celokuhle04")
+    st.markdown("---")
+    st.caption("📍 Alice, Eastern Cape | Open to Data Analyst & Developer roles")
 
 elif menu == "Research Publications":
-    st.title("Research Publications")
+    st.header("Research Publications")
     st.sidebar.header("Upload and Filter")
     st.info("Upload a CSV with Eastern Cape publications to explore trends")
 
@@ -87,7 +79,7 @@ elif menu == "Research Publications":
         st.write("No file uploaded - demo data will be shown in Data Explorer tab")
 
 elif menu == "Eastern Cape Data Explorer":
-    st.title("Eastern Cape Data Explorer")
+    st.header("Eastern Cape Data Explorer")
     data_option = st.sidebar.selectbox(
         "Choose a dataset to explore", 
         ["Population & Unemployment", "Education Levels", "Monthly Rainfall"]
@@ -120,15 +112,13 @@ elif menu == "Eastern Cape Data Explorer":
         st.area_chart(climate_data.set_index("Month"))
 
 elif menu == "Contact":
-    st.title("Contact Information")
-    st.markdown("""
-    ### 📬 Get in Touch
-    **Name:** Celokuhle Sandise Ntete  
-    **Email:** sandisentete@gmail.com  
-    **GitHub:** [github.com/Celokuhle04](https://github.com/Celokuhle04)  
-    **Institution:** University of Fort Hare  
-    **Location:** Eastern Cape, South Africa
-
-    Available for Data Analytics, Software Development, and Research collaborations.
-    """)
-  
+   elif menu == "Contact":
+    st.header("Contact Information")
+    st.subheader("📬 Get in Touch")
+    st.write("Feel free to reach out for collaborations or opportunities.")
+    st.markdown("---")
+    st.link_button("📧 Email Me", "mailto:sandisentete@gmail.com", use_container_width=True)
+    st.link_button("💼 LinkedIn Profile", "https://www.linkedin.com/in/celokuhle-sandise-ntete-249480278", use_container_width=True)
+    st.link_button("💻 GitHub Portfolio", "https://github.com/Celokuhle04", use_container_width=True)
+    st.markdown("---")
+    st.caption("Response within 24 hours")
