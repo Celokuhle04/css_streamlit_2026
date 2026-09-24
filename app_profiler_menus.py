@@ -45,7 +45,7 @@ if menu == "About Me":
     st.write("Data and Software Developer passionate about turning complex datasets into actionable solutions with Excel, SQL, Python, Pandas and Power BI.")
     st.markdown("---")
     st.markdown("### 🎓 Education")
-    st.write("University of Fort Hare - Honours in Mathematics")
+    st.write("Honours in Mathematics - University of Fort Hare")
     st.markdown("### 💼 Focus")
     st.write("Data Analytics | Software Development | Mathematics")
     st.markdown("### 🛠️ Tech Stack")
