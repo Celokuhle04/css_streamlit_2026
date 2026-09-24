@@ -43,17 +43,17 @@ climate_data = pd.DataFrame({
 if menu == "About Me":
     st.header("About Me")
     st.subheader("Celokuhle Sandise Ntete | Data & Software Developer")
-    st.write("Honours Mathematics student at the University of Fort Hare, passionate about turning data into solutions with Python.")
+    st.write("Data and Software Developer passionate about turning complex datasets into actionable solutions with Excel, SQL, Python, Pandas and Power BI.")
     st.markdown("---")
     st.markdown("### 🎓 Education")
     st.write("University of Fort Hare - Honours in Mathematics")
     st.markdown("### 💼 Focus")
     st.write("Data Analytics | Software Development | Mathematics")
     st.markdown("### 🛠️ Tech Stack")
-    st.write("Python • SQL • Pandas • Streamlit • Power BI • Git")
+    st.write("Python • SQL • Excel • Pandas • Streamlit • Power BI • Git")
     st.link_button("View GitHub Profile", "https://github.com/Celokuhle04")
     st.markdown("---")
-    st.caption("📍 Alice, Eastern Cape | Open to Data Analyst & Developer roles")
+    st.caption("📍 Alice, Eastern Cape | Open to Relocation and Remote | Junior Data Scientist, Data Analyst and Developer roles")
 
 elif menu == "Research Publications":
     st.header("Research Publications")
