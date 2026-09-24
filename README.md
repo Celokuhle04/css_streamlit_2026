@@ -28,7 +28,9 @@ Interactive research dashboard built during the CHPC - NITheCS Coding Summer Sch
 ---
 
 ### Screenshots
-> Add 2 screenshots here - Data Explorer page and Profile page
+![About Me - Profile Page](screenshots/about_me.png)
+
+![Data Explorer - Visualisations](screenshots/data_explorer.png)
 
 ---
 
