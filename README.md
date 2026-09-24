@@ -39,4 +39,4 @@ Interactive research dashboard built during the CHPC - NITheCS Coding Summer Sch
 git clone https://github.com/Celokuhle04/css_streamlit_2026.git
 cd css_streamlit_2026
 pip install streamlit pandas numpy
-streamlit run app_profiler_menus.py
+streamlit run app.py
