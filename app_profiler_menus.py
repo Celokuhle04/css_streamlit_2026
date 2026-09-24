@@ -112,7 +112,6 @@ elif menu == "Eastern Cape Data Explorer":
         st.area_chart(climate_data.set_index("Month"))
 
 elif menu == "Contact":
-   elif menu == "Contact":
     st.header("Contact Information")
     st.subheader("📬 Get in Touch")
     st.write("Feel free to reach out for collaborations or opportunities.")
